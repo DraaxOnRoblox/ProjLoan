@@ -1,0 +1,60 @@
+body{
+    background-color: #002b23;
+}
+
+.h1_1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 38px;
+}
+
+.h2_1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 32px;
+}
+
+.container{
+    text-align: center;
+}
+
+h3{
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2%;
+}
+
+.container .TermsButton {
+    border-radius: 20px;
+    height: 45px;
+    width: 200px;
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
