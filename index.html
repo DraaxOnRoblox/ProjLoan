@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Bartle Games</title>
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var premierH1 = document.querySelector('h1');
+      var titre = premierH1.innerText;
+
+      document.title = titre + ' | Bartle Games';
+    });
+  </script>
 </head>
 <body>
-    <h1 class="h1_1">Bartle Games</h1>
+    <h1 class="h1_1">Home</h1>
 
     <hr>
 
